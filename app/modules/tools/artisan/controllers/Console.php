@@ -23,4 +23,12 @@ class Console extends MX_Controller
 
         echo ('Unexistent command '."$cmd\n");
     }
+
+    public function m_web_test()
+    {
+        $this->load->model('m_web');
+        $o = $this->m_web->cari_kanal(1);
+
+        var_dump( $o);
+    }
 }

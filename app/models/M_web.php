@@ -10,12 +10,13 @@ class M_web extends CI_Model
 	{
 		parent::__construct();
 	}
+	
 	public function get_opsi_value()
 	{
 		$rs = $this->db->where(['id_setting' => '5'])
 					   ->get('p_setting_item') 
-				 	   ->row();
-		return json_encode($rs);
+				 	   ->row()->meta_value;
+		return json_decode($rs);
 	}
 	public function get_wrapper($path,$posisi){
 		$rs = $this->db->select('meta_value')
@@ -26,7 +27,8 @@ class M_web extends CI_Model
 					 ->get()
 					 ->row();
 
-		$res=(!empty($row->meta_value))	?	json_decode($row->meta_value)	:	json_decode("{\"widget\":[]}");
+		$res=(!empty($row->meta_value))	?	json_decode($row->meta_value)	
+									    :	json_decode("{\"widget\":[]}");
 		return $res;
 	}
 	public function cari_kanal($idd){
@@ -37,12 +39,22 @@ class M_web extends CI_Model
 					->get()
 					->row();
 
-					@$hsl = json_decode($hslquery[0]->meta_value);
-					@$hslq->nama_kanal=$hslquery[0]->nama_item;
-					$hslq->path_kanal=@$hsl->path_root;
-					$hslq->tipe=@$hsl->tipe;
-					$hslq->theme=@$hsl->theme;
-					$hslq->id_kanal=@$hslquery[0]->id_item;
-					return $hslq;
+		$mv 		    = json_decode($rs->meta_value);
+		// print_r($mv);
+		$o 				= new stdClass();
+		$o->nama_kanal	= $mv->nama_item;
+		$o->path_kanal	= $mv->path_root;
+		$o->tipe 		= $mv->tipe;
+		$o->theme 		= $mv->theme;
+		$o->id_kanal 	= $mv->id_item;
+
+		return $o;
+	}
+
+	function get_komponen(){
+		$hslquery = $this->db->get_where('p_setting_item', ['id_setting' => '7'])->result();
+		$hsl = array();
+		foreach ($hslquery AS $key=>$val){ $hsl[]=$val->nama_item;}
+		return $hsl;
 	}
 }

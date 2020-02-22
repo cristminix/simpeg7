@@ -58,7 +58,6 @@ $autoload['packages'] = array();
 |
 |	$autoload['libraries'] = array('user_agent' => 'ua');
 */
-$autoload['libraries'] = array();
 
 /*
 | -------------------------------------------------------------------
@@ -81,6 +80,9 @@ $autoload['libraries'] = array();
 */
 $autoload['drivers'] = array();
 
+$autoload['libraries'] = array('database','session','form_validation','encryption','auth/auth', 'pagination' );
+
+
 /*
 | -------------------------------------------------------------------
 |  Auto-load Helper Files
@@ -89,7 +91,9 @@ $autoload['drivers'] = array();
 |
 |	$autoload['helper'] = array('url', 'file');
 */
-$autoload['helper'] = array();
+
+$autoload['helper'] = array('url','file','captcha', 'dkpg_common_helper', 'inodev');
+
 
 /*
 | -------------------------------------------------------------------
@@ -103,7 +107,11 @@ $autoload['helper'] = array();
 | config files.  Otherwise, leave it blank.
 |
 */
-$autoload['config'] = array();
+
+$cust_configs = array('admin_payroll');
+
+$autoload['config'] = $cust_configs;
+
 
 /*
 | -------------------------------------------------------------------
@@ -117,7 +125,9 @@ $autoload['config'] = array();
 | "codeigniter_lang.php" would be referenced as array('codeigniter');
 |
 */
-$autoload['language'] = array();
+
+$autoload['language'] = array('apppayroll');
+
 
 /*
 | -------------------------------------------------------------------
@@ -125,11 +135,13 @@ $autoload['language'] = array();
 | -------------------------------------------------------------------
 | Prototype:
 |
-|	$autoload['model'] = array('first_model', 'second_model');
+|	$autoload['model'] = array('model1', 'model2');
 |
-| You can also supply an alternative model name to be assigned
-| in the controller:
-|
-|	$autoload['model'] = array('first_model' => 'first');
 */
-$autoload['model'] = array();
+
+$autoload['model'] = array('dropdowns');
+
+
+/* End of file autoload.php */
+/* Location: ./application/config/autoload.php */
+

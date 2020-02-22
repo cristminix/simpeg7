@@ -39,3 +39,4 @@ $lang['form_validation_greater_than'] = 'Bidang {field} harus berisi angka lebih
 $lang['form_validation_greater_than_equal_to'] = 'Bidang {field} harus berisi angka yang lebih besar dari atau sama dengan {param}.';
 $lang['form_validation_error_message_not_set'] = 'Tidak dapat mengakses pesan kesalahan sesuai dengan nama bidang Anda {field}.';
 $lang['form_validation_in_list'] = 'Bidang {field} harus menjadi salah satu dari: {param}.';
+$lang['form_validation_validate_captcha']="Captcha Error";
