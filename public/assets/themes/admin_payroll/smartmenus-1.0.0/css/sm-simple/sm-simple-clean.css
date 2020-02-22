@@ -1,0 +1,87 @@
+.sm-simple-clean {
+  border: 1px solid #bbbbbb;
+  background: white;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+.sm-simple-clean a, .sm-simple-clean a:hover, .sm-simple-clean a:focus, .sm-simple-clean a:active {
+  padding: 13px 20px;
+  /* make room for the toggle button (sub indicator) */
+  padding-right: 58px;
+  color: #555555;
+  font-family: "Lucida Sans Unicode", "Lucida Sans", "Lucida Grande", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 17px;
+  text-decoration: none;
+}
+.sm-simple-clean a, .sm-simple-clean a:hover, .sm-simple-clean a:focus, .sm-simple-clean a:active {
+    font-size: 13px;
+}
+.sm-simple-clean a.current {
+  background: #555555;
+  color: white;
+}
+.sm-simple-clean a.disabled {
+  color: #cccccc;
+}
+.sm-simple-clean a span.sub-arrow {
+  position: absolute;
+  top: 50%;
+  margin-top: -17px;
+  left: auto;
+  right: 4px;
+  width: 34px;
+  height: 34px;
+  overflow: hidden;
+  font: bold 14px/34px monospace !important;
+  text-align: center;
+  text-shadow: none;
+  background: rgba(0, 0, 0, 0.08);
+}
+.sm-simple-clean a.highlighted span.sub-arrow:before {
+  display: block;
+  content: '-';
+}
+.sm-simple-clean li {
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+.sm-simple-clean > li:first-child {
+  border-top: 0;
+}
+.sm-simple-clean ul {
+  background: rgba(179, 179, 179, 0.1);
+}
+.sm-simple-clean ul a, .sm-simple-clean ul a:hover, .sm-simple-clean ul a:focus, .sm-simple-clean ul a:active {
+  font-size: 14px;
+  border-left: 8px solid transparent;
+}
+.sm-simple-clean ul a, .sm-simple-clean ul a:hover, .sm-simple-clean ul a:focus, .sm-simple-clean ul a:active {
+  font-size: 12px;
+}
+.sm-simple-clean ul ul a,
+.sm-simple-clean ul ul a:hover,
+.sm-simple-clean ul ul a:focus,
+.sm-simple-clean ul ul a:active {
+  border-left: 16px solid transparent;
+}
+.sm-simple-clean ul ul ul a,
+.sm-simple-clean ul ul ul a:hover,
+.sm-simple-clean ul ul ul a:focus,
+.sm-simple-clean ul ul ul a:active {
+  border-left: 24px solid transparent;
+}
+.sm-simple-clean ul ul ul ul a,
+.sm-simple-clean ul ul ul ul a:hover,
+.sm-simple-clean ul ul ul ul a:focus,
+.sm-simple-clean ul ul ul ul a:active {
+  border-left: 32px solid transparent;
+}
+.sm-simple-clean ul ul ul ul ul a,
+.sm-simple-clean ul ul ul ul ul a:hover,
+.sm-simple-clean ul ul ul ul ul a:focus,
+.sm-simple-clean ul ul ul ul ul a:active {
+  border-left: 40px solid transparent;
+}
+

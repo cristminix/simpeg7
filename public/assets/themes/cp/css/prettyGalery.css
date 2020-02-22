@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document by. opick - april 11 */
+.pg_paging {
+	float:right;
+	margin:0;
+	padding:0;
+	height:23px;
+	border-top:solid 1px #eef3f6;
+	background:#f4f7f9;
+}
+
+.pg_paging .pg_previous a {
+	background:url(../img/element/pagingNav.png) no-repeat 113% 2px;
+	display:block;		
+}
+.pg_paging .pg_previous:hover {
+	
+}
+.pg_paging .pg_next a {
+	background:url(../img/element/pagingNav.png) no-repeat -13% 2px;
+	display:block;
+}
+.pg_paging .pg_next:hover {
+	
+}
+.pg_paging li {
+	text-align: center;
+}

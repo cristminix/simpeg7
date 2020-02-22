@@ -1,0 +1,96 @@
+#content-wrapper{
+	padding-bottom: 30px;
+}
+.top-nav{
+	padding-bottom: 5px;
+}
+.c-opsi{
+	padding-left: 5px;
+}
+.filter-cnt{
+	/*display:none; */
+	padding-top:20px;
+}
+.grid-data{
+	/*padding-left:5px;
+	padding-right:5px;*/
+}
+.per-page{
+	margin-bottom:5px;
+}
+.select-per-page-cnt{
+	float:left;
+}
+.select-per-page{
+	width:70px;
+}
+.per-page-text{
+	float:left;
+	padding-left:5px;
+	margin-top:6px;
+}
+.search-cnt{
+	margin-bottom:5px;
+}
+.search-grp{
+	width:240px; 
+	float:right; 
+	padding:0px 2px 0px 2px;
+}
+.search-caption{
+	float:right; 
+	margin:7px 0px 0px 0px;
+}
+
+.t-no{width:35px}
+.t-act{width:30px}
+.t-foto{width:150px}
+.t-det{width:250px}
+.t-pkt{width:160px}
+.t-ktr{width:300px}
+.pad0{padding: 0}
+.t-mid-ctr{text-align:center; vertical-align:middle !important}
+
+#paging_print{
+	display:none;
+}
+
+.page-text{
+	float:left; 
+	padding:5px;
+
+	font-weight: bold;
+}
+.page-text-mid{
+	float:left; 
+	padding:5px;
+}
+.input-page{
+	text-align:right; 
+	float:left; 
+	border:1px solid #3399CC; 
+	padding:0px 2px 0px 2px;
+}
+.paging-frame{float: right;}
+.b-hal{float:left; padding-top:4px}
+.ft-thumb{
+	width:150px;height: auto;margin: 0 auto;display: block;
+}
+.t-no{text-align: center;}
+
+.t-ket{padding:3px;}
+.t-ket > .tgl-cap{float:left; width:130px;}
+.t-ket > .lbl-dot{float:left; width:10px;}
+.t-ket > .tgl{float:left;}
+.clb{clear: both;}
+.flol{float: left;}
+.t-ket > .no-sk{float:left; width:130px;}
+.cpo{cursor: pointer;}
+.tb-info-pensiun{
+	width: 100%;
+}
+.tb-info-pensiun th,
+.tb-info-pensiun td{
+	vertical-align: top;
+}
+#paging .paging-frame > div.btn{padding: 6px 7px}

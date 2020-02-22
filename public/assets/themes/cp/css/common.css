@@ -1,0 +1,148 @@
+charset "utf-8";
+td {FONT-WEIGHT: normal; FONT-SIZE: 12px; FONT-FAMILY: arial, verdana, helvetica, serif;}
+tr.gridrow {BACKGROUND-COLOR:#ffffff; FONT-SIZE: 12px; FONT-FAMILY: arial, verdana, helvetica, serif;}
+tr.gridrow:hover {BACKGROUND-COLOR:#FFFF9B;}
+.gridrow.odd { BACKGROUND-COLOR:#F2FDFF; }
+.gridrow.even { BACKGROUND-COLOR:#F9F9F9; }
+td.gridcell { color:#666666; border-right: 1px dotted #3399CC; border-top: 1px dotted #3399CC; padding-left: 3px; padding-right: 3px}
+td.gridcell.left {  color:#000000; background-color:#D3F3FE; border-left: 1px dotted #3399CC; border-right: 1px dotted #3399CC; border-top: 1px dotted #3399CC; padding-left: 3px; padding-right: 3px}
+
+th.gridhead { background-color:#D3F3FE; border-top: 1px dotted #3399CC; border-right: 1px dotted #3399CC; border-bottom: 1px dotted #3399CC; FONT-WEIGHT: normal; FONT-SIZE: 12px; FONT-FAMILY: arial, verdana, helvetica, serif; text-align:center;}
+th.gridhead.left { background-color:#D3F3FE; border: 1px dotted #3399CC; font-weight:bold; FONT-SIZE: 12px; FONT-FAMILY: arial, verdana, helvetica, serif;}
+
+.grid_icon {border-radius: 3px; BACKGROUND-COLOR:#FFFFFF; border:1px solid #cccccc; float: right; cursor: pointer; margin-right:1px; box-shadow: 1px 1px 1px rgb(0,0,0);}
+.grid_icon:hover {border-radius: 3px; BACKGROUND-COLOR:#0099FF; border:1px solid #cccccc; float: right; cursor: pointer; margin-right:1px; box-shadow: -1px -1px 1px rgb(0,0,0);}
+
+.btn.btn-default { color: #000066; BACKGROUND-COLOR:#FFFFFF; border: 1px solid #3399CC; float: left; margin:1px; padding: 0px 5px 0px 5px; border-radius: 2px;}
+.btn.btn-default:hover {color: #FF0000; BACKGROUND-COLOR: #FFFF00; border: 1px solid #3399CC; float: left; margin:1px; padding: 0px 5px 0px 5px; border-radius: 2px; cursor: pointer;}
+.btn.active {color: #ffffff; BACKGROUND-COLOR: #0066FF; border: 1px solid #0066FF; float: left; margin:1px; padding: 0px 5px 0px 5px; border-radius: 2px}
+.pagingframe {	float:right;	}
+.pagingframe div {	padding-left:7px;padding-right:7px;	}
+
+
+.tombol_aksi {color: #ffffff; BACKGROUND-COLOR: #0066FF; float:left; border: 1px solid #0000FF; padding:3px 5px 2px 5px; font-size:12px; margin:0px 5px 3px 0px; cursor:pointer; border-radius: 4px; box-shadow: 1px 1px 2px rgb(0,0,0);}
+.tombol_aksi:hover {color:#0000FF; background-color:#CCCCCC; float:left; border: 1px solid #0000FF; padding:3px 5px 2px 5px; border-radius: 4px; box-shadow: -1px -1px 2px rgb(0,0,0);}
+.tombol_aksi2 {color:#0000FF; float:left; border: 1px solid #0000FF; padding:3px 5px 2px 5px; font-size:12px; margin:0px 5px 3px 0px; cursor:pointer; border-radius: 4px; box-shadow: -1px -1px 2px rgb(0,0,0);}
+
+.text_aksi {	color:#ff0000; font-size:12px; cursor:pointer;	}
+.text_aksi:hover {	color:#0000FF;	}
+
+.ipt_text {	margin-top:1px; BACKGROUND-COLOR:#FFFF9B; padding: 2px 3px 2px 1px; border:1px groove #3399CC;	}
+
+/* CSS by. opick april'11 */
+
+* {
+	margin:0;
+	padding:0;
+}
+img {
+	border:none;
+}
+body {
+	margin:0;
+	font-family:Tahoma, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	overflow:hidden;
+}
+a {
+	text-decoration:none;
+	color:#6a6b6b;
+}
+.page-break {
+	clear:both;
+	height:50px;
+}
+
+.body {
+	margin:0;
+	padding:0;
+}
+
+.page {
+	
+}
+
+.header {
+	background:url(../img/common/bg-header.gif) repeat-x;
+	float:left;
+	height:28px;
+	width:100%;
+	border-bottom::solid 1px #000;
+	color:#d7d7d7;
+	font-size:11px;
+}
+
+.header-title {
+	float:left;	
+	margin-top:7px;
+	margin-left:5px;
+	font-weight:bold;
+}
+
+.header-status {
+	float:right;
+	margin-top:7px;
+	margin-right:5px;	
+	font-weight:bold;
+	z-index:2px;
+}
+
+.header-status a {
+	color:#d7d7d7;
+	text-decoration:none;
+}
+
+.header-status a.logout {
+	text-decoration:underline;
+	margin-left:10px;
+}
+
+.header-status a:hover {
+	color:#fff;
+}
+
+.user-status {
+	
+}
+
+.main-content {
+	clear:both;
+	float:left;
+	width:100%;
+	overflow:auto;
+	margin-top:5px;
+}
+.msg-box-true {
+    background: none repeat scroll 0 0 #EBFF06;
+    border: 1px solid #CCCC00;
+    border-radius: 5px 5px 5px 5px;
+    color: #666666;
+    font-weight: bold;
+    margin: 0 0 3px;
+}
+.msg-box-true ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 3px;
+}
+.msg-box-true ul li {
+    background: url("../img/common/success-icon.png") no-repeat scroll left center transparent;
+    text-indent: 17px;
+}
+.msg-box-false {
+    background: none repeat scroll 0 0 #FF2A2A;
+    border: 1px solid #AF0C0C;
+    border-radius: 5px 5px 5px 5px;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin: 0 0 3px;
+}
+.msg-box-false ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 3px;
+}
+.msg-box-false ul li {
+    background: url("../img/common/error-icon.png") no-repeat scroll left center transparent;
+    text-indent: 17px;
+}

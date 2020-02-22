@@ -1,0 +1,51 @@
+.toolbar {
+	float:left;
+	width:99.1%;
+	padding:3px;
+	background:#eef5f2;
+	border:solid 1px #dbe4eb;
+	margin-bottom:5px;
+	line-height:28px;
+}
+
+.toolbar span {
+	margin-left:5px;
+}
+
+.toolbar strong {
+	color:#5d8d8d;
+	margin:0;
+	padding:0;
+	font-size:12px;
+	text-shadow:1px 1px 0 #fff;
+}
+
+.toolbar .sp {
+	height:30px;
+	padding:7px 0;
+	border-left:solid 1px #dde4e1;
+	border-right:solid 1px #fff;
+}
+
+.toolbar form {
+	float:left;
+}
+
+.toolbar .textbox {
+	border:solid 1px #ccc;
+	padding:3px 2px;
+}
+
+.toolbar .selectbox {
+	border:solid 1px #ccc;
+	padding:2px;
+}
+
+
+
+
+
+
+
+
+

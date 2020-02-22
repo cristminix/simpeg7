@@ -1,0 +1,141 @@
+@charset "utf-8";
+/* CSS Document */
+
+.content-box {
+	margin: -3px 5px 500px 215px;
+	margin-bottom:500px;
+}
+
+.content {
+	clear:both;
+/*	height:465px;*/
+	overflow-y:auto;	
+	overflow-x:auto;
+	padding:0px 5px 0px 0px;
+}
+
+.page-link {
+	float:left;
+	margin-bottom:5px;
+	width:100%;
+}
+
+.page-link ul {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+.page-link ul li {
+	float:left;
+	margin-right:5px;
+/*	background:#e5f1e6 url(../img/common/bg-page-link.gif) repeat-y;*/
+}
+
+.page-link ul li a {
+	background:url(../img/common/bg-page-link-arrow.gif) no-repeat top right;
+	padding:10px 15px;
+	display:block;
+	color:#506486;
+	font-weight:bold;
+	font-size:11px;
+}
+
+.page-link ul li a:hover {
+	color:#333;
+}
+
+.page-link ul li.active {
+	padding:10px 15px 10px 5px;
+	background:none;
+	color:#333;
+	font-weight:bold;
+}
+
+
+
+
+
+.head-content {
+	border-bottom:solid 1px #d4e1e7;
+	padding:0;
+	margin:0 0 5px;
+	height:30px;
+	color:#666666;
+}
+
+.head-content h3 {
+	background:transparent url(../img/element/side-grey2-right.gif) no-repeat scroll left -1px;
+	float:left;
+	font-family:Tahoma,Arial,Helvetica,sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	margin:7px 0;
+	padding:1px 0px 3px 20px;
+}
+.head-content a {
+	font-weight:bold;
+	text-decoration:none;
+}
+.head-content h3 a:hover {
+	text-decoration:underline;
+}
+.tab-nav {
+	float:right;
+	font-family:"lucida sans",arial,verdana,tahoma,helvetica,sans-serif;
+	margin:1px -4px 0;
+	padding:0;
+	width:auto;
+}
+.tab-nav ul {
+	margin:0;
+	padding:0;
+	list-style:none;
+
+}
+.tab-nav li {
+	float:right;
+	margin:0;
+	padding:0;
+}
+.tab-nav a {
+	background:#e1ece8;
+	border:1px solid #d4e1e7;
+	border-bottom:none;
+	color:#8ca8af ;
+	font-family:calibri;
+	font-size:14px;
+	display:block;
+	font-weight:bold;
+	height:15px;
+	margin:2px 4px 0 0;
+	padding:5px 15px 6px 11px;
+	text-decoration:none;
+	cursor:pointer;
+}
+.tab-nav a:hover {
+	background:#abcac6;
+	color:#fff;
+}
+
+a.tab-nav-active, a.tab-nav-active:hover  {
+	border-bottom:#fff 1px solid;
+	color:#b6a667;
+	display:block;
+	font-weight:bold;
+	background:none;
+	text-decoration:none;
+	cursor:default;
+}
+
+.tab-nav ul li img {
+	float:left;
+	border:none;
+	margin-right:5px;
+	margin-top:3px;
+}	
+
+
+
+
+

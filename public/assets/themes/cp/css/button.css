@@ -1,0 +1,511 @@
+@charset "utf-8";
+/* CSS Document */
+.button-box-skyblue {
+	clear:both;
+	width:99.5%;
+	float:left;
+	background:#fafcfe url(../img/button/bg-bt-box.gif) repeat-x;
+	border:solid 1px #8cbfec;
+	padding:1px 2px;
+	margin-bottom:3px;
+	-moz-border-radius:5px;
+}
+
+.bt-blue-common {
+	background:url(../img/button/bt-blue-common.png) no-repeat;
+	border:none;	
+	color:#fff;
+	cursor:pointer;
+	width:113px;
+	height:30px;
+	font-size:11px;
+	margin-right:2px;
+	float:left;
+}
+
+.bt-blue-common:hover, .bt-blue-common:focus {
+	background:url(../img/button/bt-blue-common-h.png) no-repeat;
+}
+
+.icon-plus-bt-blue {
+	background:url(../img/button/icon-plus-blue-common.png) no-repeat;
+	float:left;
+	height:16px;
+	padding-left:20px;
+}
+
+.icon-print-bt-blue {
+	background:url(../img/button/icon-print-blue-common.png) no-repeat;
+	float:left;
+	height:16px;
+	padding-left:20px;
+}
+
+.icon-pdf-bt-blue {
+	background:url(../img/button/icon-pdf-blue-common.png) no-repeat;
+	float:left;
+	height:16px;
+	padding-left:20px;
+}
+
+.icon-excel-bt-blue {
+	background:url(../img/button/icon-excel-blue-common.png) no-repeat;
+	float:left;
+	height:16px;
+	padding-left:20px;
+}
+
+.icon-word-bt-blue {
+	background:url(../img/button/icon-word-blue-common.png) no-repeat;
+	float:left;
+	height:16px;
+	padding-left:20px;
+}
+
+.button-box-skyblue ul {
+	list-style:none;
+	padding:0;
+	margin:3px;
+}
+
+.button-box-skyblue ul li {
+	float:left;
+	margin-right:10px;
+	margin-bottom:3px;
+}
+
+.button-box-skyblue ul li img {
+	margin:0 4px 0 0;	
+	float:left;	
+	opacity:0.4;
+}
+
+.button-box-skyblue ul li img:hover, .button-box-skyblue ul li img:focus {
+	opacity:1;
+}
+
+.button-box-skyblue ul li a {
+	text-decoration:none;
+	color:#007dc5;	
+	display:block;
+	padding:1px;
+}
+
+.button-box-skyblue ul li a:hover, .button-box-skyblue ul li a:focus {
+	text-decoration:none;
+	color:#003399;
+}
+
+.button-box-skyblue ul li.plus {
+	background:url(../img/button/icon-plus-blue-common.png) no-repeat left;
+	padding-left:20px;
+	opacity:0.6;
+}
+
+.button-box-skyblue ul li.plus:hover, .button-box-skyblue ul li.plus:focus {
+	opacity:1;
+}
+
+.button-box-skyblue ul li.print {
+	background:url(../img/button/icon-print-blue-common.png) no-repeat left;
+	padding-left:20px;
+	opacity:0.6;
+}
+
+.button-box-skyblue ul li.print:hover, .button-box-skyblue ul li.print:focus {
+	opacity:1;
+}
+
+.button-box-skyblue ul li.pdf {
+	background:url(../img/button/icon-pdf-blue-common.png) no-repeat left;
+	padding-left:20px;
+	opacity:0.6;
+}
+
+.button-box-skyblue ul li.pdf:hover, .button-box-skyblue ul li.pdf:focus {
+	opacity:1;
+}
+
+.button-box-skyblue ul li.excel {
+	background:url(../img/button/icon-excel-blue-common.png) no-repeat left;
+	padding-left:20px;
+	opacity:0.6;
+}
+
+.button-box-skyblue ul li.excel:hover, .button-box-skyblue ul li.excel:focus {
+	opacity:1;
+}
+
+.button-box-skyblue ul li.word {
+	background:url(../img/button/icon-word-blue-common.png) no-repeat left;
+	padding-left:20px;
+	opacity:0.5;
+}
+
+.button-box-skyblue ul li.word:hover, .button-box-skyblue ul li.word:focus {
+	opacity:1;
+}
+
+
+.tools {
+	float:right;
+}
+
+.tools ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+.tools ul li {
+	float:left;
+	margin-right:10px;
+	margin-bottom:3px;
+}
+
+.tools ul li img {
+	margin:0 4px 0 0;	
+	float:left;	
+	opacity:0.4;
+}
+
+.tools ul li img:hover, .tools ul li img:focus {
+	opacity:1;
+}
+
+.tools ul li a {
+	text-decoration:none;
+	color:#007dc5;	
+	display:block;
+	padding:1px;
+	font-weight:normal;
+}
+
+.tools ul li a:hover, .tools ul li a:focus {
+	text-decoration:none;
+	color:#003399;
+}
+
+.tools ul li.plus {
+	background:url(../img/button/icon-plus-blue-common.png) no-repeat left;
+	padding-left:20px;
+	opacity:0.6;
+}
+
+.tools ul li.plus:hover, .tools ul li.plus:focus {
+	opacity:1;
+}
+
+.tools ul li.print {
+	background:url(../img/button/icon-print-blue-common.png) no-repeat left;
+	padding-left:20px;
+	opacity:0.6;
+}
+
+.tools ul li.print:hover, .tools ul li.print:focus {
+	opacity:1;
+}
+
+.tools ul li.pdf {
+	background:url(../img/button/icon-pdf-blue-common.png) no-repeat left;
+	padding-left:20px;
+	opacity:0.6;
+}
+
+.tools ul li.pdf:hover, .tools ul li.pdf:focus {
+	opacity:1;
+}
+
+.tools ul li.excel {
+	background:url(../img/button/icon-excel-blue-common.png) no-repeat left;
+	padding-left:20px;
+	opacity:0.6;
+}
+
+.tools ul li.excel:hover, .tools ul li.excel:focus {
+	opacity:1;
+}
+
+.tools ul li.word {
+	background:url(../img/button/icon-word-blue-common.png) no-repeat left;
+	padding-left:20px;
+	opacity:0.5;
+}
+
+.tools ul li.word:hover, .tools ul li.word:focus {
+	opacity:1;
+}
+
+.tools ul li.search {
+	background:url(../img/button/icon-search-blue-common.png) no-repeat left;
+	padding-left:20px;
+	opacity:0.5;
+}
+
+.tools ul li.search:hover, .tools ul li.search:focus {
+	opacity:1;
+}
+
+
+
+
+
+
+
+
+.bt-flat-submit {
+	padding:3px 23px;
+	background-color:#0087da;
+	border:solid 1px #0021ae;
+	color:#fff;
+	cursor:pointer;
+}
+
+.bt-flat-submit:hover, .bt-flat-submit:focus {
+	background-color:#000066;
+}
+
+.bt-flat-reset {
+	padding:3px 23px;
+	background-color:#aeaeae;
+	border:solid 1px #333;
+	color:#000;
+	cursor:pointer;
+}
+
+.bt-flat-reset:hover {
+	background-color:#333;
+	border:solid 1px #000;
+	color:#fff;
+}
+
+.bt-form-flat-submit {
+	padding:3px 23px;
+	background-color:#043d8a;
+	border-top:solid 1px #ccc;
+	border-left:solid 1px #ccc;
+	border-right:solid 1px #7d7d7d;
+	border-bottom:solid 1px #7d7d7d;
+	color:#fff;
+	cursor:pointer;
+}
+
+.bt-form-flat-submit:hover, .bt-form-flat-submit:focus {
+	background-color:#000066;
+}
+
+.bt-form-flat-reset {
+	padding:3px 23px;
+	background-color:#dddddd;
+	border-top:solid 1px #ccc;
+	border-left:solid 1px #ccc;
+	border-right:solid 1px #7d7d7d;
+	border-bottom:solid 1px #7d7d7d;	
+	color:#555;
+	cursor:pointer;
+}
+
+.bt-form-flat-reset:hover, .bt-form-flat-reset:focus {
+	background-color:#ccc;
+	color:#333;
+	border-bottom:solid 1px #ccc;
+	border-right:solid 1px #ccc;
+	border-left:solid 1px #7d7d7d;
+	border-top:solid 1px #7d7d7d;	
+}
+
+.bt-edit {
+	border:solid 1px #CCC;
+	-moz-border-radius:3px;
+	padding:3px 10px;
+	margin:5px 0;
+	text-decoration:none;
+	color:#000;
+	background:url(../img/button/bt-edit.gif) repeat-x #dfcbd9;
+	color:#063;
+}
+.bt-edit:hover, .bt-edit:focus {
+	border:solid 1px #990;
+	color:#960;
+}
+
+.bt-flat-yh {
+	border:solid 1px #c5cdc2;
+	color:#525252;
+	background:#f3f5f3 url(../img/button/bg-bt-flat-yh.gif) repeat-x;
+	padding:3px 12px;
+	font-size:11px;
+	font-weight:normal;
+}
+
+.bt-flat-yh:hover, .bt-flat-yh:focus {
+	background:#c5f1fa url(../img/button/bg-bt-flat-yh-h.gif) repeat-x;
+	cursor:pointer;
+	border:solid 1px #b3c7f7;
+	color:#333;
+}
+
+.bt-reg-search {
+	width:123px;
+	height:40px;
+	padding:0;
+	color:#fff;
+	font-size:23px;
+	font-weight:bold;
+	font-family:tahoma;
+	background:url(../img/button/bt-form-reg.png) no-repeat;
+	border:none;
+	cursor:pointer;
+}
+
+.bt-reg-search:hover, .bt-reg-search:focus {
+	background:url(../img/button/bt-form-reg-h.png) no-repeat;
+}
+
+.bt-flat-search {
+	width:70px;
+	height:23px;
+	background:url(../img/button/bt-search.png) no-repeat;
+	border:solid 1px #c5cdc2;
+	padding:5px 5px 5px 25px;
+	font-size:11px;	
+	cursor:pointer;
+}
+
+.bt-flat-search:hover {
+	border:solid 1px #666;
+	color:#333;
+}
+
+.bt-blue-save {
+	background:url(../img/button/bt-reg-save.png) no-repeat;
+	width:150px;
+	height:35px;
+	color:#fff;
+	font-size:18px;
+	font-weight:bold;
+	font-family:tahoma;
+	border:none;
+	cursor:pointer;
+	padding:0 5px 0 15px;	
+}
+
+.bt-blue-save:hover, .bt-blue-save:focus {
+	background:url(../img/button/bt-reg-save-h.png) no-repeat;
+}
+
+.bt-red-reset {
+	background:url(../img/button/bt-reg-reset.png) no-repeat;
+	width:106px;
+	height:35px;
+	color:#fff;
+	font-size:18px;
+	font-weight:bold;
+	font-family:tahoma;
+	border:none;
+	cursor:pointer;
+	padding:0 5px 0 15px;	
+}
+
+.bt-red-reset:hover, .bt-red-reset:focus {
+	background:url(../img/button/bt-reg-reset-h.png) no-repeat;
+}
+
+.bt-blue-flat {
+	background:#1795fa url(../img/button/bt-blue-flat.gif) repeat-x;
+	border-top:solid 1px #6bbbfc;
+	border-left:solid 1px #249bfa;
+	border-right:solid 1px #1274c3;
+	border-bottom:solid 1px #1274c3;
+	color:#fff!important;
+	text-shadow : 1px 1px 1px #333;
+	padding:3px 15px;
+	cursor:pointer;
+}
+
+
+.bt-blue-flat:hover, .bt-blue-flat:focus, .bt-blue-flat:active {
+	background:#1795fa url(../img/button/bt-blue-flat-h.gif) repeat-x;
+}
+
+a.bt-blue-flat:hover {
+	text-decoration:none!important;
+	color:#ff0!important;
+}
+
+.bt-red-flat-reset {
+	background:#1795fa url(../img/button/bt-red-flat.gif) repeat-x;
+	border-top:solid 1px #fc766b;
+	border-left:solid 1px #fa2d1b;
+	border-right:solid 1px #c32012;
+	border-bottom:solid 1px #c32012;
+	color:#fff;
+	text-shadow : 1px 1px 1px #333;
+	padding:3px 15px;
+	cursor:pointer;
+}
+
+.bt-red-flat-reset:hover, .bt-red-flat-reset:focus, .bt-red-flat-reset:active {
+	background:#1795fa url(../img/button/bt-red-flat-h.gif) repeat-x;
+}
+
+.bt-grey {
+	background:#e8e8e6 url(../img/button/bg-bt-grey.gif) repeat-x;
+	padding:5px;
+	border:solid 1px #c7ccca;
+	-moz-border-radius:4px;
+	border-radius:4px;
+	cursor:pointer;
+	color:#a2a1a1;
+	font-size:11px;
+	text-shadow:1px 1px 0 #fff;
+}
+
+.bt-grey:hover {
+	border:solid 1px #858251;
+	color:#222;
+}
+
+.bt-flat-classic {
+	background:#e4e4e3 url(../img/button/bg-bt-grey-classic.gif) repeat-x;
+	padding:3.5px;
+	border:solid 1px #c7ccca;
+	cursor:pointer;
+	color:#333;
+	font-size:11px;
+	text-shadow:1px 1px 0 #fff;
+}
+
+.bt-flat-classic:hover {
+	border:solid 1px #858251;
+	color:#333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

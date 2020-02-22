@@ -525,11 +525,11 @@ $config['rewrite_short_tags'] = FALSE;
 $config['proxy_ips'] = '';
 //APPPATH.'modules/' => '../modules/',
 $config['modules_locations'] = [
-	// APPPATH.'modules/cms/' 		=> '../modules/cms/',
-	// APPPATH.'modules/apps/' 	=> '../modules/apps/',
-	// APPPATH.'modules/widget/' 	=> '../modules/widget/',
-	// APPPATH.'modules/theme/' 	=> '../modules/theme/',
-	// APPPATH.'modules/spv/' 		=> '../modules/spv/',
+	APPPATH.'modules/cms/' 		=> '../modules/cms/',
+	APPPATH.'modules/apps/' 	=> '../modules/apps/',
+	APPPATH.'modules/widget/' 	=> '../modules/widget/',
+	APPPATH.'modules/theme/' 	=> '../modules/theme/',
+	APPPATH.'modules/spv/' 		=> '../modules/spv/',
 
 	APPPATH.'modules/tools/' 	=> '../modules/tools/',
 ];

@@ -1,0 +1,19 @@
+2010-06-09 11:10:35 (KRAST)	8 Notice	Undefined index:  sessioncheck	File: tinybrowser.php	Line: 17	
+2010-06-09 11:10:47 (KRAST)	8 Notice	Undefined index:  sessioncheck	File: tinybrowser.php	Line: 17	
+2010-06-09 11:20:55 (KRAST)	8 Notice	Undefined variable: success	File: upload_file.php	Line: 35	
+2010-06-09 11:20:56 (KRAST)	2 Warning	opendir(D:/XAMPP/htdocssgn/assets/media/file//images//images/) [<a href='function.opendir'>function.opendir</a>]: failed to open dir: Invalid argument	File: upload_process.php	Line: 21	
+2010-06-09 11:25:33 (KRAST)	8 Notice	Undefined variable: success	File: upload_file.php	Line: 35	
+2010-06-09 11:25:34 (KRAST)	2 Warning	opendir(D:/XAMPP/htdocssgn/assets/media/file//images/artikel/berita//images/artikel/berita/) [<a href='function.opendir'>function.opendir</a>]: failed to open dir: Invalid argument	File: upload_process.php	Line: 21	
+2010-06-09 11:28:18 (KRAST)	2 Warning	imagejpeg() [<a href='function.imagejpeg'>function.imagejpeg</a>]: Unable to open 'D:/XAMPP/htdocssgn/assets/media/file/artikel/berita/_thumbs/_contoh_foto.jpg' for writing	File: fns_tinybrowser.php	Line: 113	
+2010-06-09 11:44:18 (KRAST)	2 Warning	imagejpeg() [<a href='function.imagejpeg'>function.imagejpeg</a>]: Unable to open 'D:/XAMPP/htdocs/sgn/assets/media//file/artikel/berita/_thumbs/_contoh_photo_2.jpg' for writing	File: fns_tinybrowser.php	Line: 113	
+2010-06-09 11:47:13 (KRAST)	2 Warning	imagejpeg() [<a href='function.imagejpeg'>function.imagejpeg</a>]: Unable to open 'D:/XAMPP/htdocs/sgn//assets/media/file/artikel/berita/_thumbs/_contoh_foto.jpg' for writing	File: fns_tinybrowser.php	Line: 113	
+2010-06-09 11:51:44 (KRAST)	2 Warning	mkdir() [<a href='function.mkdir'>function.mkdir</a>]: Invalid argument	File: fns_tinybrowser.php	Line: 5	
+2010-06-09 11:51:44 (KRAST)	2 Warning	mkdir() [<a href='function.mkdir'>function.mkdir</a>]: Invalid argument	File: fns_tinybrowser.php	Line: 5	
+2010-06-09 11:51:44 (KRAST)	2 Warning	mkdir() [<a href='function.mkdir'>function.mkdir</a>]: Invalid argument	File: fns_tinybrowser.php	Line: 5	
+2010-06-09 11:51:44 (KRAST)	2 Warning	mkdir() [<a href='function.mkdir'>function.mkdir</a>]: Invalid argument	File: fns_tinybrowser.php	Line: 5	
+2010-06-09 11:51:44 (KRAST)	2 Warning	mkdir() [<a href='function.mkdir'>function.mkdir</a>]: Invalid argument	File: fns_tinybrowser.php	Line: 5	
+2010-06-09 11:51:44 (KRAST)	2 Warning	mkdir() [<a href='function.mkdir'>function.mkdir</a>]: Invalid argument	File: fns_tinybrowser.php	Line: 5	
+2010-06-09 11:51:44 (KRAST)	2 Warning	mkdir() [<a href='function.mkdir'>function.mkdir</a>]: Invalid argument	File: fns_tinybrowser.php	Line: 5	
+2010-06-09 11:51:44 (KRAST)	2 Warning	opendir(D:/XAMPP/htdocs/sgn/D:/XAMPP/htdocs/sgn/assets/media/file/) [<a href='function.opendir'>function.opendir</a>]: failed to open dir: Invalid argument	File: fns_tinybrowser.php	Line: 363	
+2010-06-09 11:51:44 (KRAST)	2 Warning	readdir(): supplied argument is not a valid Directory resource	File: fns_tinybrowser.php	Line: 364	
+2010-06-09 11:51:44 (KRAST)	2 Warning	closedir(): supplied argument is not a valid Directory resource	File: fns_tinybrowser.php	Line: 380	

@@ -1,0 +1,102 @@
+/* CSS by. opick'10 */
+#menuh {
+	width:100%;
+	float:left;
+	color:#fff;
+	font-size:11px;
+	margin:0 auto;
+}
+#menuh a {
+	color:#FFFFFF;
+	display:block;
+	margin:0;
+	padding:8px 20px 12px;
+	text-decoration:none;
+}
+#menuh a:link, #menuh a:visited, #menuh a:active	/* menu at rest */ {
+	color: white;
+	text-decoration:none;
+}
+#menuh a:hover						/* menu on mouse-over  */ {
+	background-color: cornflowerblue;
+	text-decoration:none;
+}
+#menuh ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+	float:left;
+	/*width:120px;*/
+	text-align:center;/* width of all menu boxes *//* NOTE: For adjustable menu boxes you can comment out the above width rule.
+	However, you will have to add padding in the "#menh a" rule so that the menu boxes
+	will have space on either side of the text -- try it */
+}
+#menuh ul li {
+	position:relative;
+	min-height: 1px;		/* Sophie Dennis contribution for IE7 */
+	vertical-align: bottom;		/* Sophie Dennis contribution for IE7 */
+	
+}
+#menuh ul ul {
+	background-color:#007dc5;
+	display:none;
+	font-size:11px;
+	font-weight:normal;
+	margin:0;
+	padding:0;
+	position:absolute;
+	top:32px;
+	width:164px;
+	z-index:50;
+	text-align:left;
+	text-transform:uppercase;
+}
+#menuh ul ul ul {
+	top:0;
+	left:100%;
+}
+div#menuh li:hover {
+	cursor:pointer;
+	z-index:100;
+}
+div#menuh li:hover ul ul, div#menuh li li:hover ul ul, div#menuh li li li:hover ul ul, div#menuh li li li li:hover ul ul {
+	display:none;
+}
+div#menuh li:hover ul, div#menuh li li:hover ul, div#menuh li li li:hover ul, div#menuh li li li li:hover ul {
+	display:block;
+}
+/* End CSS Drop Down Menu */
+#menuh ul li:hover > a, #menuh ul li a.active {
+	background:url("../img/common/bg-menu-h.gif") repeat-x scroll 0 0 transparent;
+	color:#0073b5;
+}
+#menuh ul li a.left:hover, #menuh ul li a.left.active {
+	background:url("../img/common/bg-menu-h.gif") repeat-x scroll 0 0 transparent;
+	color:#0073b5;
+	-moz-border-radius:5px 0;
+}
+#menuh ul li a.right:hover {
+	background:url("../img/common/bg-menu-h.gif") repeat-x scroll 0 0 transparent;
+	color:#0073b5;
+	-moz-border-radius:0 5px 0 0;
+}
+#menuh ul ul li:hover > a {
+	background:#4aa3d6;
+	color:#fff;
+}
+#menuh ul ul li {
+	border-bottom:1px solid #a3d0ea;
+}
+#menuh ul ul li a {
+	color:#FFFFFF;
+	display:block;
+	margin:0;
+	padding:7px 4px 8px 20px;
+	width:140px;
+}
+#menuh ul ul li a:hover {
+	border:medium none;
+	color:#fff;
+	background:#4aa3d6;
+	margin:0;
+}

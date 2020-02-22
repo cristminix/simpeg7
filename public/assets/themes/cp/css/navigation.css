@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+.navigation {
+	clear:both;
+	width:100%;
+	height:76px;
+	background:#fff url(../img/common/bg-nav.gif) repeat-x;
+	border-bottom:solid 1px #e2e2e2;
+}
+
+.navigation ul {
+	margin:0;
+	padding:0;
+}
+
+.navigation ul li {
+	float:left;
+	list-style:none;
+	margin:0px 11px 0px 10px;
+	text-align:center;
+	width:75px;
+	padding-top:3px;
+}
+
+.navigation ul li span {
+	float:left;
+	height:46px;
+	width:100%;
+}
+
+
+.navigation ul li img {
+
+}
+
+.navigation ul li a {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color:#6a6b6b;
+}
+
+.navigation ul li a:hover {
+	color:#333;
+}
+
+.navigation ul li div.pasive {
+	width:100px;
+	position:relative;
+	top:1px;
+	padding:8px 2px 2px;
+}
+
+.navigation ul li div.active {
+	width:100px;
+	background:#fff url(../img/common/bg-nav-active.gif) repeat-x;
+	border-top:solid 1px #e2e2e2;
+	border-right:solid 1px #e2e2e2;
+	border-left:solid 1px #e2e2e2;
+	border-bottom:solid 1px #fff;
+	-moz-border-radius:8px 8px 0 0;
+	border-radius:8px 8px 0 0;
+	position:relative;
+	top:1px;
+	padding:8px 2px 2px;
+}
+
+.navigation ul li div.active a {
+	color:#333;
+}
+
+
+
+
+
+
+
+
+
